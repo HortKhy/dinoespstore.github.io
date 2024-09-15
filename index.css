@@ -1,0 +1,190 @@
+.topup-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.topup-bordy {
+  width: 447px;
+  height: 459px;
+  display: flex;
+  position: relative;
+  mix-width: 400px;
+  align-self: center;
+  box-shadow: 0px 0px 10px 0px #d4d4d4;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  justify-content: center;
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: var(--dl-radius-radius-radius8);
+  border-bottom-left-radius: var(--dl-radius-radius-radius8);
+  border-bottom-right-radius: var(--dl-radius-radius-radius8);
+}
+.topup-image {
+  width: 90%;
+  height: auto;
+  margin-top: var(--dl-space-space-unit);
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius4);
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: var(--dl-radius-radius-radius8);
+  border-bottom-left-radius: var(--dl-radius-radius-radius8);
+  border-bottom-right-radius: var(--dl-radius-radius-radius8);
+}
+.topup-form {
+  left: 0px;
+  right: 0px;
+  width: 90%;
+  bottom: 21px;
+  height: 239px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  border-radius: var(--dl-radius-radius-radius4);
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: var(--dl-radius-radius-radius8);
+  border-bottom-left-radius: var(--dl-radius-radius-radius8);
+  border-bottom-right-radius: var(--dl-radius-radius-radius8);
+}
+.topup-username {
+  top: var(--dl-space-space-halfunit);
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 69px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+}
+.topup-text {
+  top: 0px;
+  left: 3.359375px;
+  color: var(--dl-color-gray-500);
+  position: absolute;
+  font-size: 12px;
+  font-family: "Fira Sans";
+}
+.topup-textinput {
+  top: 21px;
+  left: 0px;
+  color: var(--dl-color-primary-100);
+  width: 100%;
+  height: var(--dl-size-size-small);
+  margin: auto;
+  position: absolute;
+  font-size: 18px;
+  transition: 0.3s;
+  font-family: "Fira Sans";
+  border-width: 0px;
+  background-color: rgba(195, 195, 195, 0.21);
+}
+.topup-textinput:hover {
+  background-color: rgba(0, 62, 179, 0.15);
+}
+.topup-amount {
+  top: 83px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 69px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+}
+.topup-text1 {
+  top: 0px;
+  left: 3.359375px;
+  color: var(--dl-color-gray-500);
+  position: absolute;
+  font-size: 12px;
+  font-family: "Fira Sans";
+}
+.topup-textinput1 {
+  top: 21px;
+  left: 0px;
+  color: var(--dl-color-primary-100);
+  width: 100%;
+  height: var(--dl-size-size-small);
+  margin: auto;
+  position: absolute;
+  font-size: 18px;
+  transition: 0.3s;
+  font-family: "Fira Sans";
+  border-width: 0px;
+  background-color: rgba(195, 195, 195, 0.21);
+}
+.topup-textinput1:hover {
+  background-color: rgba(0, 62, 179, 0.15);
+}
+.topup-button {
+  left: 0px;
+  color: var(--dl-color-gray-white);
+  right: 0px;
+  width: 50%;
+  bottom: 9px;
+  height: var(--dl-size-size-small);
+  margin: auto;
+  position: absolute;
+  box-shadow: rgb(212, 212, 212) 0px 0px 10px 3px;
+  transition: 0.3s;
+  border-width: 0px;
+  background-color: var(--dl-color-primary-300);
+}
+.topup-button:hover {
+  background-color: var(--dl-color-primary-100);
+}
+.topup-back {
+  top: 480px;
+  left: 0px;
+  color: var(--dl-color-primary-300);
+  width: var(--dl-size-size-medium);
+  height: auto;
+  position: absolute;
+  transition: 0.3s;
+  border-width: 0px;
+  text-decoration: none;
+}
+.topup-back:hover {
+  font-size: 18px;
+}
+.topup-icon {
+  top: 0px;
+  fill: var(--dl-color-primary-300);
+  left: 0px;
+  width: 24px;
+  bottom: 0px;
+  height: 24px;
+  margin: auto;
+  position: absolute;
+}
+@media(max-width: 479px) {
+  .topup-bordy {
+    width: 307px;
+    height: 400px;
+    justify-content: center;
+  }
+  .topup-form {
+    top: 137px;
+    left: 0px;
+    right: 0px;
+    height: 236px;
+    margin: auto;
+  }
+  .topup-back {
+    left: 0px;
+    width: var(--dl-size-size-medium);
+    bottom: -77px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+  }
+  .topup-icon {
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
+    position: absolute;
+  }
+}

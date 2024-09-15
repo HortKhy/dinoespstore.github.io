@@ -1,0 +1,171 @@
+.qrcode-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(217, 217, 217, 0);
+}
+.qrcode-body {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 252px;
+  bottom: 0px;
+  height: 351px;
+  margin: auto;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+}
+.qrcode-loadingpic {
+  top: -43px;
+  right: 61px;
+  width: 25px;
+  position: absolute;
+  object-fit: cover;
+}
+.qrcode-minutes {
+  top: -37px;
+  right: 18px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+}
+.qrcode-name {
+  top: 55px;
+  left: 19px;
+  position: absolute;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.qrcode-currency {
+  top: 70px;
+  left: 18px;
+  position: absolute;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.qrcode-amount {
+  top: 70px;
+  left: 31px;
+  position: absolute;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.qrcode-head {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.qrcode-header {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.qrcode-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.qrcode-container2 {
+  right: 0px;
+  width: 28px;
+  bottom: -19px;
+  height: 23px;
+  position: absolute;
+  border-top: 0px solid transparent;
+  border-right: 20px solid #E1232E;
+  border-bottom: 25px solid transparent;
+}
+.qrcode-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.qrcode-container4 {
+  height: 36px;
+}
+.qrcode-image {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: var(--dl-size-size-small);
+  bottom: 0px;
+  height: auto;
+  margin: auto;
+}
+.qrcode-line {
+  top: 99px;
+  flex: 0 0 auto;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 0px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: #dadada;
+  border-style: dotted;
+  border-top-width: 1px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.qrcode-qrcode {
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.qrcode-qr {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+}
+.qrcode-logo {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 40px;
+  bottom: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+}
+.qrcode-banklogo {
+  left: 0px;
+  right: 0px;
+  width: var(--dl-size-size-medium);
+  bottom: -40px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+}
